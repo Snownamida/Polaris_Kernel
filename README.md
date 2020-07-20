@@ -12,7 +12,7 @@
 + XDA 针对小米的[「How To Compile Kernel & DTBO For Redmi K20 Pro」](https://forum.xda-developers.com/k20-pro/how-to/guide-how-to-compile-kernel-redmi-k20-t3971443)
   就是看了它的reference, 我才发现了小米的官方教程
 
-+ 小米官方的[「How to compile kernel standalone」](https://github.com/MiCode/Xiaomi_Kernel_OpenSource), 于[Xiaomi_Kernel_OpenSource.wiki](Tutorial\Xiaomi_Kernel_OpenSource.wiki)文件夹中
++ 小米官方的[「How to compile kernel standalone」](https://github.com/MiCode/Xiaomi_Kernel_OpenSource), 于[Xiaomi_Kernel_OpenSource.wiki](Tutorial/Xiaomi_Kernel_OpenSource.wiki)文件夹中
 我很早就发现了小米官方的内核GitHub, 但找了一圈教程以后才发现再GitHub的Wiki里就有官方教程.
 
 以下, 我已小米官方的教程为基础, 贴一遍代码, 并加上我的注释理解. 我编译的是mix2s(Polaris)的内核
