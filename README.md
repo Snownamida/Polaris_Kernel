@@ -1,18 +1,18 @@
 为了尝试编译安卓内核, 我先后看了数篇教程, 全部存在Tutorial文件夹中.它们依次为
 
-+ XDA 2017年的[<How to compile an Android kernel>](https://forum.xda-developers.com/android/software-hacking/reference-how-to-compile-android-kernel-t3627297#:~:text=%20%20%20%5BREFERENCE%5D%20How%20to%20compile%20an,will%20essentially%20turn%20on%20-Werror%2C%20causing...%20More%20)
++ XDA 2017年的[「How to compile an Android kernel」](https://forum.xda-developers.com/android/software-hacking/reference-how-to-compile-android-kernel-t3627297#:~:text=%20%20%20%5BREFERENCE%5D%20How%20to%20compile%20an,will%20essentially%20turn%20on%20-Werror%2C%20causing...%20More%20)
   这是极客湾在打造最强掌机里贴出的帖子 
 
-+ Makira咸鱼小站的[<迅速入门Android内核编译 & 一加5 DC调光>](https://makiras.org/archives/173)
++ Makira咸鱼小站的[「迅速入门Android内核编译 & 一加5 DC调光」](https://makiras.org/archives/173)
   这是从酷安发现的. 中文, 非常棒
 
-+ XDA 2018年的[<A Noob Guide On Building Your Own Custom Kernel on WIN10>](https://forum.xda-developers.com/android/software/guide-noob-guide-building-custom-kernel-t3775494)
++ XDA 2018年的[「A Noob Guide On Building Your Own Custom Kernel on WIN10」](https://forum.xda-developers.com/android/software/guide-noob-guide-building-custom-kernel-t3775494)
   这篇文章让我确信了我编译失败和用win10的子系统没有关系
 
-+ XDA 针对小米的[<How To Compile Kernel & DTBO For Redmi K20 Pro>](https://forum.xda-developers.com/k20-pro/how-to/guide-how-to-compile-kernel-redmi-k20-t3971443)
++ XDA 针对小米的[「How To Compile Kernel & DTBO For Redmi K20 Pro」](https://forum.xda-developers.com/k20-pro/how-to/guide-how-to-compile-kernel-redmi-k20-t3971443)
   就是看了它的reference, 我才发现了小米的官方教程
 
-+ 小米官方的[<How to compile kernel standalone>](https://github.com/MiCode/Xiaomi_Kernel_OpenSource), 于[Xiaomi_Kernel_OpenSource.wiki](Tutorial\Xiaomi_Kernel_OpenSource.wiki)文件夹中
++ 小米官方的[「How to compile kernel standalone」](https://github.com/MiCode/Xiaomi_Kernel_OpenSource), 于[Xiaomi_Kernel_OpenSource.wiki](Tutorial\Xiaomi_Kernel_OpenSource.wiki)文件夹中
 我很早就发现了小米官方的内核GitHub, 但找了一圈教程以后才发现再GitHub的Wiki里就有官方教程.
 
 以下, 我已小米官方的教程为基础, 贴一遍代码, 并加上我的注释理解. 我编译的是mix2s(Polaris)的内核
